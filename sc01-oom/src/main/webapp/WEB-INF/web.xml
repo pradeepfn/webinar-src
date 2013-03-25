@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+   <servlet>
+       <servlet-name>sampleServlet</servlet-name>
+       <servlet-class>org.webinar.sample.SampleServlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>sampleServlet</servlet-name>
+       <url-pattern>/hello.do</url-pattern>
+   </servlet-mapping>
+
 </web-app>
